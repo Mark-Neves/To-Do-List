@@ -161,6 +161,7 @@ header{
     max-width: 630px;
     font-size: 14px;
     line-height: 1.4;
+    cursor: default;
 }
 
 .text-task-complited {
