@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="./img/title.svg" type="image/x-icon">
+    <title>To-Do List</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">to<strong id="title-two">do</strong></h1>
+    <button class="button" id="switch-theme" data-theme="dark" type="button">
+      <img id="icon-theme" src="./img/theme-light.svg" alt="Смена темы">
+    </button>
+  </header>
+  <main class="main">
+    <div class="container">
+      <form class="form-tasks" name="form">
+        <input class="input-area" type="text" name="area" placeholder="Добавить новую задачу...">
+        <button class="input-button button" type="submit">Создать</button>
+      </form>
+      <section id="filter-tasks">
+        <button class="filter-button button" id="filterAll" type="button">Все</button>
+        <button class="filter-button button" id="filterActiv" type="button">Активные</button>
+        <button class="filter-button button" id="filterComplited" type="button">Завершенные</button>
+      </section>
+      <ul class="task-list"></ul>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
