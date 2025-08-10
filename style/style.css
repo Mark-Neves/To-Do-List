@@ -18,7 +18,17 @@
     --border-radius: 8px;
 }
 
-* {
+.ligthstyle{
+    --color-gray7: #333333;
+    --color-gray6: #D9D9D9;
+    --color-gray5: #F2F2F2;
+    --color-gray4: #333333;
+    --color-gray3: #808080;
+    --color-gray2: #D9D9D9;
+    --color-gray1: #0D0D0D;
+}
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -94,7 +104,7 @@ header{
     left: -66px;
     height: 36px;
     width: 22px;
-    background: url(./img/title.svg) center/100% no-repeat;
+    background: url(../img/title.svg) center/100% no-repeat;
 }
 
 .container{
@@ -177,11 +187,11 @@ header{
 }
 
 .task-delete {
-    background: url(./img/delete.svg) center/50% no-repeat;
+    background: url(../img/delete.svg) center/50% no-repeat;
 }
 
 .task-delete:hover {
-    background: url(./img/deleteHover.svg) center/50% no-repeat;
+    background: url(../img/deleteHover.svg) center/50% no-repeat;
 }
 
 .task-activ {
@@ -207,7 +217,7 @@ header{
     right: 5px;
     width: 13px;
     height: 12px;
-    background: url(./img/finalTask.svg) center/100% no-repeat;
+    background: url(../img/finalTask.svg) center/100% no-repeat;
 }
 
 .task-complited:hover{
